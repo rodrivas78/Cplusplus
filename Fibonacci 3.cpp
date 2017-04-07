@@ -1,4 +1,4 @@
-// Gerando a sequencia de Fibonacci utilizando 3 vari·veis.
+// Gerando a sequencia de Fibonacci utilizando 3 vari√°veis.
 // R.G.Rivas
  
 #include<iostream>
@@ -9,8 +9,7 @@ int posicao;
 
 int main()
 
-{
-  	
+{  	
 	cout << endl;
 	cout << "Entre a posicao: "; 
 	cin >> posicao;
