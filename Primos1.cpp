@@ -1,5 +1,5 @@
-//Exercício de Algoritmo by R.G.Rivas
-//números primos dentro de 100
+//Prime number finder inside 0 to 100 by R.G.Rivas
+//nÃºmeros primos dentro de 100
 
 #include<iostream>
 using namespace std;
@@ -21,7 +21,6 @@ int main()
 			if(j % k == 0)
 			{
 				x++;
-
 				if(x==3) 
 			    {
 					x = 0;
