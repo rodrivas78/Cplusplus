@@ -1,5 +1,5 @@
-//Desgined to test pull-requests
-//Seja bem vindo, deixe sua(s) linha(s) de código!
+//Desgined to test pull requests
+//Seja bem vindo, deixe sua(s) linha(s) de cÃ³digo!
 
 
 #include<iostream>
