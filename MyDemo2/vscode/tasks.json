@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "MinGW",
+            "type": "shell",
+            "command": "C:\\Program Files (x86)\\mingw64\\bin\\g++.exe",
+            "args": [
+                 "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-g",
+                "${file}",
+                "-I${workspaceFolder}/freeglut/include",
+                "-L${workspaceFolder}/freeglut/lib",
+                "-lfreeglut","-lglu32","-lopengl32"
+            ],
+            "group": {
+                // Reveal the output only if unrecognized errors occur.
+                "kind": "build",
+                "isDefault": true
+            }
+                       
+        }
+    ]
+}
